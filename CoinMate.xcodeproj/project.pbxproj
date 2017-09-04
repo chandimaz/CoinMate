@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ACEEB861F5D4C71004B5378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEEB851F5D4C71004B5378 /* AppDelegate.swift */; };
+		5ACEEB881F5D4C71004B5378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEEB871F5D4C71004B5378 /* ViewController.swift */; };
+		5ACEEB8B1F5D4C71004B5378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACEEB891F5D4C71004B5378 /* Main.storyboard */; };
+		5ACEEB8E1F5D4C71004B5378 /* CoinMate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEEB8C1F5D4C71004B5378 /* CoinMate.xcdatamodeld */; };
+		5ACEEB901F5D4C71004B5378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACEEB8F1F5D4C71004B5378 /* Assets.xcassets */; };
+		5ACEEB931F5D4C71004B5378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACEEB911F5D4C71004B5378 /* LaunchScreen.storyboard */; };
+		5ACEEB9E1F5D4C71004B5378 /* CoinMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEEB9D1F5D4C71004B5378 /* CoinMateTests.swift */; };
+		5ACEEBA91F5D4C71004B5378 /* CoinMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEEBA81F5D4C71004B5378 /* CoinMateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ACEEB9A1F5D4C71004B5378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ACEEB7A1F5D4C71004B5378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACEEB811F5D4C71004B5378;
+			remoteInfo = CoinMate;
+		};
+		5ACEEBA51F5D4C71004B5378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ACEEB7A1F5D4C71004B5378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACEEB811F5D4C71004B5378;
+			remoteInfo = CoinMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ACEEB821F5D4C71004B5378 /* CoinMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACEEB851F5D4C71004B5378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5ACEEB871F5D4C71004B5378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5ACEEB8A1F5D4C71004B5378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ACEEB8D1F5D4C71004B5378 /* CoinMate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoinMate.xcdatamodel; sourceTree = "<group>"; };
+		5ACEEB8F1F5D4C71004B5378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ACEEB921F5D4C71004B5378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5ACEEB941F5D4C71004B5378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACEEB991F5D4C71004B5378 /* CoinMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACEEB9D1F5D4C71004B5378 /* CoinMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMateTests.swift; sourceTree = "<group>"; };
+		5ACEEB9F1F5D4C71004B5378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACEEBA41F5D4C71004B5378 /* CoinMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACEEBA81F5D4C71004B5378 /* CoinMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMateUITests.swift; sourceTree = "<group>"; };
+		5ACEEBAA1F5D4C71004B5378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ACEEB7F1F5D4C71004B5378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACEEB961F5D4C71004B5378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACEEBA11F5D4C71004B5378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ACEEB791F5D4C71004B5378 = {
+			isa = PBXGroup;
+			children = (
+				5ACEEB841F5D4C71004B5378 /* CoinMate */,
+				5ACEEB9C1F5D4C71004B5378 /* CoinMateTests */,
+				5ACEEBA71F5D4C71004B5378 /* CoinMateUITests */,
+				5ACEEB831F5D4C71004B5378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ACEEB831F5D4C71004B5378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ACEEB821F5D4C71004B5378 /* CoinMate.app */,
+				5ACEEB991F5D4C71004B5378 /* CoinMateTests.xctest */,
+				5ACEEBA41F5D4C71004B5378 /* CoinMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ACEEB841F5D4C71004B5378 /* CoinMate */ = {
+			isa = PBXGroup;
+			children = (
+				5ACEEB851F5D4C71004B5378 /* AppDelegate.swift */,
+				5ACEEB871F5D4C71004B5378 /* ViewController.swift */,
+				5ACEEB891F5D4C71004B5378 /* Main.storyboard */,
+				5ACEEB8F1F5D4C71004B5378 /* Assets.xcassets */,
+				5ACEEB911F5D4C71004B5378 /* LaunchScreen.storyboard */,
+				5ACEEB941F5D4C71004B5378 /* Info.plist */,
+				5ACEEB8C1F5D4C71004B5378 /* CoinMate.xcdatamodeld */,
+			);
+			path = CoinMate;
+			sourceTree = "<group>";
+		};
+		5ACEEB9C1F5D4C71004B5378 /* CoinMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ACEEB9D1F5D4C71004B5378 /* CoinMateTests.swift */,
+				5ACEEB9F1F5D4C71004B5378 /* Info.plist */,
+			);
+			path = CoinMateTests;
+			sourceTree = "<group>";
+		};
+		5ACEEBA71F5D4C71004B5378 /* CoinMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5ACEEBA81F5D4C71004B5378 /* CoinMateUITests.swift */,
+				5ACEEBAA1F5D4C71004B5378 /* Info.plist */,
+			);
+			path = CoinMateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ACEEB811F5D4C71004B5378 /* CoinMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACEEBAD1F5D4C71004B5378 /* Build configuration list for PBXNativeTarget "CoinMate" */;
+			buildPhases = (
+				5ACEEB7E1F5D4C71004B5378 /* Sources */,
+				5ACEEB7F1F5D4C71004B5378 /* Frameworks */,
+				5ACEEB801F5D4C71004B5378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinMate;
+			productName = CoinMate;
+			productReference = 5ACEEB821F5D4C71004B5378 /* CoinMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ACEEB981F5D4C71004B5378 /* CoinMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACEEBB01F5D4C71004B5378 /* Build configuration list for PBXNativeTarget "CoinMateTests" */;
+			buildPhases = (
+				5ACEEB951F5D4C71004B5378 /* Sources */,
+				5ACEEB961F5D4C71004B5378 /* Frameworks */,
+				5ACEEB971F5D4C71004B5378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACEEB9B1F5D4C71004B5378 /* PBXTargetDependency */,
+			);
+			name = CoinMateTests;
+			productName = CoinMateTests;
+			productReference = 5ACEEB991F5D4C71004B5378 /* CoinMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ACEEBA31F5D4C71004B5378 /* CoinMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACEEBB31F5D4C71004B5378 /* Build configuration list for PBXNativeTarget "CoinMateUITests" */;
+			buildPhases = (
+				5ACEEBA01F5D4C71004B5378 /* Sources */,
+				5ACEEBA11F5D4C71004B5378 /* Frameworks */,
+				5ACEEBA21F5D4C71004B5378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACEEBA61F5D4C71004B5378 /* PBXTargetDependency */,
+			);
+			name = CoinMateUITests;
+			productName = CoinMateUITests;
+			productReference = 5ACEEBA41F5D4C71004B5378 /* CoinMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ACEEB7A1F5D4C71004B5378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Virtual;
+				TargetAttributes = {
+					5ACEEB811F5D4C71004B5378 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					5ACEEB981F5D4C71004B5378 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5ACEEB811F5D4C71004B5378;
+					};
+					5ACEEBA31F5D4C71004B5378 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5ACEEB811F5D4C71004B5378;
+					};
+				};
+			};
+			buildConfigurationList = 5ACEEB7D1F5D4C71004B5378 /* Build configuration list for PBXProject "CoinMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ACEEB791F5D4C71004B5378;
+			productRefGroup = 5ACEEB831F5D4C71004B5378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ACEEB811F5D4C71004B5378 /* CoinMate */,
+				5ACEEB981F5D4C71004B5378 /* CoinMateTests */,
+				5ACEEBA31F5D4C71004B5378 /* CoinMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ACEEB801F5D4C71004B5378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACEEB931F5D4C71004B5378 /* LaunchScreen.storyboard in Resources */,
+				5ACEEB901F5D4C71004B5378 /* Assets.xcassets in Resources */,
+				5ACEEB8B1F5D4C71004B5378 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACEEB971F5D4C71004B5378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACEEBA21F5D4C71004B5378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ACEEB7E1F5D4C71004B5378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACEEB881F5D4C71004B5378 /* ViewController.swift in Sources */,
+				5ACEEB8E1F5D4C71004B5378 /* CoinMate.xcdatamodeld in Sources */,
+				5ACEEB861F5D4C71004B5378 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACEEB951F5D4C71004B5378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACEEB9E1F5D4C71004B5378 /* CoinMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACEEBA01F5D4C71004B5378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACEEBA91F5D4C71004B5378 /* CoinMateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ACEEB9B1F5D4C71004B5378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ACEEB811F5D4C71004B5378 /* CoinMate */;
+			targetProxy = 5ACEEB9A1F5D4C71004B5378 /* PBXContainerItemProxy */;
+		};
+		5ACEEBA61F5D4C71004B5378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ACEEB811F5D4C71004B5378 /* CoinMate */;
+			targetProxy = 5ACEEBA51F5D4C71004B5378 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ACEEB891F5D4C71004B5378 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACEEB8A1F5D4C71004B5378 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ACEEB911F5D4C71004B5378 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACEEB921F5D4C71004B5378 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ACEEBAB1F5D4C71004B5378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ACEEBAC1F5D4C71004B5378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ACEEBAE1F5D4C71004B5378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoinMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanzDev.CoinMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5ACEEBAF1F5D4C71004B5378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoinMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanzDev.CoinMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5ACEEBB11F5D4C71004B5378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoinMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanzDev.CoinMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinMate.app/CoinMate";
+			};
+			name = Debug;
+		};
+		5ACEEBB21F5D4C71004B5378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoinMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanzDev.CoinMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinMate.app/CoinMate";
+			};
+			name = Release;
+		};
+		5ACEEBB41F5D4C71004B5378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CoinMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanzDev.CoinMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CoinMate;
+			};
+			name = Debug;
+		};
+		5ACEEBB51F5D4C71004B5378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CoinMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanzDev.CoinMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CoinMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ACEEB7D1F5D4C71004B5378 /* Build configuration list for PBXProject "CoinMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACEEBAB1F5D4C71004B5378 /* Debug */,
+				5ACEEBAC1F5D4C71004B5378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACEEBAD1F5D4C71004B5378 /* Build configuration list for PBXNativeTarget "CoinMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACEEBAE1F5D4C71004B5378 /* Debug */,
+				5ACEEBAF1F5D4C71004B5378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5ACEEBB01F5D4C71004B5378 /* Build configuration list for PBXNativeTarget "CoinMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACEEBB11F5D4C71004B5378 /* Debug */,
+				5ACEEBB21F5D4C71004B5378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5ACEEBB31F5D4C71004B5378 /* Build configuration list for PBXNativeTarget "CoinMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACEEBB41F5D4C71004B5378 /* Debug */,
+				5ACEEBB51F5D4C71004B5378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5ACEEB8C1F5D4C71004B5378 /* CoinMate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5ACEEB8D1F5D4C71004B5378 /* CoinMate.xcdatamodel */,
+			);
+			currentVersion = 5ACEEB8D1F5D4C71004B5378 /* CoinMate.xcdatamodel */;
+			path = CoinMate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5ACEEB7A1F5D4C71004B5378 /* Project object */;
+}
